@@ -65,15 +65,18 @@ body {
   letter-spacing: 0.1rem;
   margin-bottom: 1rem;
 }
+.card-top-text p {
+  max-width: 15rem;
+}
 .shoe-1 {
   width: 30rem;
   position: absolute;
   top: -2.5rem;
-  right: -10rem;
+  right: -13rem;
   transition: transform 1s;
 }
 .container.change .shoe-1 {
-  transform: translateX(-50rem) rotateZ(45deg);
+  transform: translateX(-60rem) rotateZ(45deg);
 }
 .shoe-2 {
   width: 30rem;
@@ -83,7 +86,7 @@ body {
   transition: transform 1s;
 }
 .container.change .shoe-2 {
-  transform: translateX(-40rem) rotateZ(-45deg);
+  transform: translateX(-35rem) rotateZ(-45deg);
 }
 .card-bottom {
   border-radius: 0 0 2.5rem 2.5rem;
